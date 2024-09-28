@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-anydpi_ic_service.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-anydpi/ic_service.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable_laundry1.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable/laundry1.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-hdpi_ic_service.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-hdpi/ic_service.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/layout_activity_layanan.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/layout/activity_layanan.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable_promo.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable/promo.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-xxhdpi_ic_service.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-xxhdpi/ic_service.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable_button_green_gradient.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable/button_green_gradient.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-mdpi_ic_username.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-mdpi/ic_username.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-anydpi_ic_username.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-anydpi/ic_username.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-anydpi_ic_password.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-anydpi/ic_password.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-xxhdpi_ic_username.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-xxhdpi/ic_username.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/xml_data_extraction_rules.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable_customer.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable/customer.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-xhdpi_ic_password.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-xhdpi/ic_password.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable_green_outline_bg.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable/green_outline_bg.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-mdpi_ic_service.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-mdpi/ic_service.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/layout_activity_detail_laundry.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/layout/activity_detail_laundry.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-hdpi_ic_username.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-hdpi/ic_username.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/layout_activity_add_laundry.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/layout/activity_add_laundry.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable_button_red_gradient.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable/button_red_gradient.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/layout_activity_promo.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/layout/activity_promo.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-hdpi_ic_password.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-hdpi/ic_password.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/layout_activity_laundry.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/layout/activity_laundry.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/layout_activity_pelanggan.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/layout/activity_pelanggan.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-mdpi_ic_password.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-mdpi/ic_password.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-xhdpi_ic_service.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-xhdpi/ic_service.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-xhdpi_ic_username.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-xhdpi/ic_username.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/xml_backup_rules.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable_laundry.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable/laundry.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/drawable-xxhdpi_ic_password.png.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/drawable-xxhdpi/ic_password.png"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "id.my.hafiz.laundryapps.app-debug-31:/layout_activity_login.xml.flat",
+        "source": "id.my.hafiz.laundryapps.app-main-33:/layout/activity_login.xml"
+    }
+]
