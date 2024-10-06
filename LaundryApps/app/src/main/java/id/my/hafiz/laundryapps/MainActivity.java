@@ -12,6 +12,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import id.my.hafiz.laundryapps.layanan.LayananActivity;
+import id.my.hafiz.laundryapps.pelanggan.PelangganActivity;
+
 public class MainActivity extends AppCompatActivity {
     String username;
     CardView cvLaundry, cvLayanan, cvPelanggan, cvPromo;

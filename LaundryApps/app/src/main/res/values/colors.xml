@@ -12,5 +12,7 @@
     <color name="darkGreen">#4CAF50</color>
     <color name="lightRed">#FF5252</color>
     <color name="DarkRed">#F44336</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="PrimaryColor">#0D47A1</color>
 
 </resources>

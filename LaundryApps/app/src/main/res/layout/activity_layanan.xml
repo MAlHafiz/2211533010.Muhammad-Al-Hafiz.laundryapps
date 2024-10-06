@@ -1,158 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/whiteGray"
-    tools:context=".LayananActivity">
-
-    <TextView
-        android:id="@+id/addService"
-        android:layout_width="wrap_content"
+    tools:context=".layanan.LayananActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/lg"
-        android:background="@color/Blue"
-        android:padding="@dimen/lg"
-        android:text="TAMBAH LAYANAN"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="33dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/serviceList1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/addService"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginStart="@dimen/lg"
-        android:layout_marginEnd="@dimen/lg"
-        android:layout_marginTop="@dimen/md"
-        app:cardCornerRadius="@dimen/sm">
-
-        <LinearLayout
-            android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/lg">
+        <TextView
+            android:id="@+id/btnLayAdd"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="@dimen/lg">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center_vertical"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="CUCI SETRIKA"
-                    android:textColor="@color/Blue"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/servicePrice1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Rp. 6.000/Kg"
-                    android:textSize="14sp" />
-            </LinearLayout>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/serviceList2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/serviceList1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginStart="@dimen/lg"
-        android:layout_marginEnd="@dimen/lg"
-        android:layout_marginTop="@dimen/sm"
-        app:cardCornerRadius="@dimen/sm">
-
-        <LinearLayout
+            android:layout_marginBottom="@dimen/lg"
+            android:background="@color/Blue"
+            android:padding="@dimen/lg"
+            android:text="TAMBAH LAYANAN"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="@dimen/lg">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:gravity="center_vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="SETRIKA"
-                    android:textColor="@color/Blue"
-                    android:textStyle="bold"
-                    android:textSize="16sp"/>
-
-                <TextView
-                    android:id="@+id/servicePrice2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Rp. 4.000/Kg"
-                    android:textSize="14sp"/>
-            </LinearLayout>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/serviceList3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/serviceList2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginStart="@dimen/lg"
-        android:layout_marginEnd="@dimen/lg"
-        android:layout_marginTop="@dimen/sm"
-        app:cardCornerRadius="@dimen/sm">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="@dimen/lg">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:gravity="center_vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="CUCI"
-                    android:textColor="@color/Blue"
-                    android:textStyle="bold"
-                    android:textSize="16sp"/>
-
-                <TextView
-                    android:id="@+id/servicePrice3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Rp. 4.000/Kg"
-                    android:textSize="14sp"/>
-            </LinearLayout>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+            android:layout_height="match_parent"
+            android:id="@+id/rvLayanan"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1324,6 +1324,7 @@ color Blue
 color DarkRed
 color Gray
 color PAID
+color PrimaryColor
 color UNPAID
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
@@ -1373,6 +1374,7 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorBackground
 color darkGreen
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
@@ -2873,6 +2875,7 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+dimen x_lg
 dimen xs
 dimen xss
 drawable abc_ab_share_pack_mtrl_alpha
@@ -2982,6 +2985,9 @@ drawable ic_call_decline
 drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_email
+drawable ic_harga
+drawable ic_hp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3079,9 +3085,6 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id Customer1
-id Customer2
-id Customer3
 id Date1
 id Date2
 id FUNCTION
@@ -3153,9 +3156,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id addCustomer
 id addLaundry
-id addService
 id alertTitle
 id aligned
 id all
@@ -3184,7 +3185,13 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnCancel
+id btnLayAdd
+id btnLayAddBatal
+id btnLayAddSimpan
 id btnLogin
+id btnPelAdd
+id btnPelAddBatal
+id btnPelAddSimpan
 id btnSave
 id buttonPanel
 id cache_measures
@@ -3227,6 +3234,8 @@ id currentState
 id custom
 id customPanel
 id cut
+id cvItemLay
+id cvItemPel
 id cvLaundry
 id cvLayanan
 id cvPelanggan
@@ -3264,7 +3273,12 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id edLayAddHarga
+id edLayAddTipe
 id edPassword
+id edPelAddEmail
+id edPelAddHp
+id edPelAddNama
 id edUsername
 id edge
 id edit_query
@@ -3450,9 +3464,6 @@ id payment
 id paymentStatus
 id peekHeight
 id percent
-id phoneNumber1
-id phoneNumber2
-id phoneNumber3
 id pin
 id position
 id postLayout
@@ -3480,6 +3491,8 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvLayanan
+id rvPelanggan
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3601,6 +3614,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvItemLayHarga
+id tvItemLayTipe
+id tvItemPelHp
+id tvItemPelNama
 id unchecked
 id uniform
 id unlabeled
@@ -3746,9 +3763,11 @@ layout activity_add_laundry
 layout activity_detail_laundry
 layout activity_laundry
 layout activity_layanan
+layout activity_layanan_add
 layout activity_login
 layout activity_main
 layout activity_pelanggan
+layout activity_pelanggan_add
 layout activity_promo
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3768,6 +3787,8 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_layanan
+layout item_pelanggan
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

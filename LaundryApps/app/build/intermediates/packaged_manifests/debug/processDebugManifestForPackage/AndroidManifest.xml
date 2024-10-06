@@ -8,6 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <permission
         android:name="id.my.hafiz.laundryapps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -28,13 +30,22 @@
         android:testOnly="true"
         android:theme="@style/Theme.LaundryApps" >
         <activity
+            android:name="id.my.hafiz.laundryapps.layanan.LayananAddActivity"
+            android:exported="false" />
+        <activity
+            android:name="id.my.hafiz.laundryapps.layanan.AddLayananActivity"
+            android:exported="false" />
+        <activity
+            android:name="id.my.hafiz.laundryapps.pelanggan.PelangganAddActivity"
+            android:exported="false" />
+        <activity
             android:name="id.my.hafiz.laundryapps.PromoActivity"
             android:exported="false" />
         <activity
-            android:name="id.my.hafiz.laundryapps.PelangganActivity"
+            android:name="id.my.hafiz.laundryapps.pelanggan.PelangganActivity"
             android:exported="false" />
         <activity
-            android:name="id.my.hafiz.laundryapps.LayananActivity"
+            android:name="id.my.hafiz.laundryapps.layanan.LayananActivity"
             android:exported="false" />
         <activity
             android:name="id.my.hafiz.laundryapps.AddLaundryActivity"
